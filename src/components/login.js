@@ -72,16 +72,14 @@ export default class Login extends Component{
               this.setState({
                 loggedIn:true
            })
-       }
 
-       this.setState({userNameError : "",
-       passwordError:""}) //clearing the form after hitting submit
-    }
-
-    else {
+           this.setState({userNameError : "",
+           passwordError:""}) //clearing the form after hitting submit
+       } 
+       else {
         alert("Invalid credentials") //if username and password are not in the localStorage
-    }
-
+       }
+    } 
  }
    
     render(){
