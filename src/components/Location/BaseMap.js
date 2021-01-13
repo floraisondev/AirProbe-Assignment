@@ -47,7 +47,7 @@ render(){
      {/*React map  gl component from the proxy library react-map-gl */}
       <ReactMapGL
         {...this.state.viewport}
-        mapStyle='mapbox://styles/floraisondev/ckjsrhx6x04z719mq9pfxtykc'
+        mapStyle='mapbox://styles/mapbox/streets-v11'
         onViewportChange={viewport => this.setState({ viewport })}
         mapboxApiAccessToken = "pk.eyJ1IjoiZmxvcmFpc29uZGV2IiwiYSI6ImNranNpbXJjNzN6dnQyeG83d2x2NDh0cXUifQ.Zeawqb7brV1pCF7tjSCe5Q"
       >
