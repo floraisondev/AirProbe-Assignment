@@ -1,0 +1,17 @@
+.myLocationBtn{
+  background: #6b5ccf ;
+  border:none;
+  padding: 0.5em 2em;
+  color: #fff;
+  text-transform: capitalize;
+  border-radius: 40px;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  
+}
+
+.myLocationBtn:hover,
+.myLocationBtn:focus{
+  background-color: #9688f5;
+  color: #000;
+}

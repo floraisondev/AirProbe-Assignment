@@ -1,0 +1,53 @@
+.navStyle{
+    background-color: #6b5ccf !important;
+    font-size: 1em;
+    
+    
+    text-transform: uppercase;
+}
+
+.bg-primary{
+    background-color: #6B5CFF !important;
+}
+
+.mapContainer{
+    margin-top: 5em;
+}
+
+.navlink{
+    color: #fff !important;
+    margin-top: 0.5em;
+}
+
+.currentUser,
+.locationPin
+{
+    height: 40px;
+    width: 40px;
+}
+
+.userName{
+    color: #fff;
+    margin: 0.7em;
+    font-weight: light;
+    font-size: 1em;
+    text-transform: capitalize;
+}
+
+.logoutLink{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.7em;
+}
+.logoutLink:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.logoutBtn{
+    padding:0 0.6em !important;
+}
+
+.logoutBtn:hover{
+   background-color: #9b95d1 !important;
+}

@@ -1,0 +1,27 @@
+.img {
+   margin-right: 10%;
+}
+
+.signUpBtn{
+    background-color: #6B5CFF !important;
+    border-radius: 40px !important;
+}
+
+.Card{
+    border-radius: 30px !important;
+    padding:1em !important;
+}
+
+@media (max-width:1005px){
+    .img{
+        display: none;
+    }
+
+   
+
+    .wrapper{
+        background-color: rgb(107, 92, 255);
+
+
+    }
+}

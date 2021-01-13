@@ -1,0 +1,51 @@
+
+.avatar{
+    width: 100px;
+    height: 100px;    
+}
+
+.Card{
+    border-radius: 30px !important;
+    padding:1em !important;
+}
+.wave {
+    position: fixed;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.img img {
+    width: 500px;
+
+}
+
+.loginBtn
+{
+    background-color: #6B5CFF !important;
+    border-radius: 40px !important;
+    
+}
+
+@media (max-width:1005px){
+    .img{
+        display: none;
+    }
+
+    .wave{
+        display: none;
+    }
+
+    .wrapper{
+        background-color: rgb(107, 92, 255);
+
+
+    }
+}
